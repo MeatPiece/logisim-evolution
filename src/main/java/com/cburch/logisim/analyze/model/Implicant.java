@@ -406,7 +406,7 @@ public class Implicant implements Comparable<Implicant> {
 
   static final Implicant MINIMAL_IMPLICANT = new Implicant(0, -1);
   static final List<Implicant> MINIMAL_LIST = Collections.singletonList(MINIMAL_IMPLICANT);
-  public static final int MAXIMAL_NR_OF_INPUTS_FOR_AUTO_MINIMAL_FORM = 6;
+  public static final int MAXIMAL_NR_OF_INPUTS_FOR_AUTO_MINIMAL_FORM = 20;
 
   final int unknowns;
   final int values;
